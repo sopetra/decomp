@@ -21,7 +21,7 @@ Testiranje algoritma se postiže pokretanjem `domena.c`.
 
 ## Licence
   
- [Decomp](https://github.com/sopetra/decomp) © 2021 by [Petra Sočo](https://github.com/sopetra) is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International][cc].
+ [Decomp](https://github.com/sopetra/decomp) © 2019 by [Petra Sočo](https://github.com/sopetra) is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International][cc].
 
 [![CC 4.0][cc-image]][cc]
 
