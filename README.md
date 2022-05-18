@@ -11,6 +11,10 @@ Decomp project for university course [Znanstveno računanje 1](https://www.pmf.u
 Program za numeričko rješavanje Poissonove jednadžbe uz Dirichletove rubne uvjete, na nepravilnoj domeni u obliku slova 'L'. Druge derivacije aproksimiramo centralnim diferencijama, a na domeni 'L' uvodimo ekvidistantnu mrežu i dekompozicjiu na manje pravokutne poddomene koje se ne preklapaju. Dobiveni sustav linearnih jednadžbi u matrici organiziramo na nain da prvo poredamo čvorove unutar poddomene, a zatim čvorove koji se nalaze na rubovima. Takvim postupkom dolazimo do *algoritma blok-Gaussovih eliminacija*, a detaljnije o algoritmu i rezultatima može se naći u [tekstu](https://github.com/sopetra/decomp/blob/main/Iterativne%20metode%20za%20sustave%20-%20dekompozicija%20domene.pdf).
 
 ## Pokretanje programa
+Potrebne biblioteke:
+1. `LAPACK` (Linear Algebra Package). Dokumentacija je dostupna na [linku](http://www.netlib.org/lapack/).
+2. `BLAS` (Basic Linear ALgebra Subprograms). Dokumentacija je dostupna na [linku](http://www.netlib.org/blas/).
+3. `f2c.c` prebacuje Fortran kod u C. 
 Testiranje algoritma se postiže pokretanjem `domena.c`.
 
 
