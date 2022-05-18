@@ -1,4 +1,4 @@
-# Decomp
+# Iterativne metode za sustave - dekompozicija domene
 
 [![CC BY-NC-SA 4.0][cc-shield]][cc]
 [![stability-beta](https://img.shields.io/badge/stability-beta-33bbff.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#beta)
